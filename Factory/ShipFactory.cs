@@ -11,10 +11,10 @@ namespace DesignPatterns.Factory
             switch (val)
             {
                 case 1:
-                    objfactory = new RocketShip();
+                    objfactory = new RocketShip("Rocket", 20.0);
                     break;
                 case 2:
-                    objfactory = new SpaceShip();
+                    objfactory = new SpaceShip("Space", 40.0);
                     break;
                 default:
                     break;

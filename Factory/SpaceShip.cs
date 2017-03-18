@@ -8,11 +8,9 @@ namespace DesignPatterns.Factory
 {
     class SpaceShip : Ship
     {
-        //Set the values for the ship
-        public SpaceShip()
+        //Set the values for the ship by calling the base class constructor
+        public SpaceShip(string Name, double speed) : base(Name, speed)
         {
-            Name = "Space";
-            Speed = 40.0;
         }
     }
 }

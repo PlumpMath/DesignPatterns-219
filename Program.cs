@@ -37,6 +37,7 @@ namespace DesignPatterns
                     int val = 2;
                     ShipFactory factoryObj = new ShipFactory();
                     Ship shipType = null;
+                    //Create ship object
                     shipType = factoryObj.MakeShip(val);
                     //To display the type of ship and it's speed
                     shipType.ShipStatus();
